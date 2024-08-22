@@ -1,0 +1,43 @@
+body {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+h1 {
+    color: #61dafb;
+}
+
+#cutButton, #downloadButton {
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+
+.card {
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+video {
+    background-color: #000;
+    max-height: 350px;
+    border-radius: 8px;
+}
+
+.form-control, .form-control-file {
+    background-color: #343a40;
+    color: white;
+    border-color: #61dafb;
+}
+
+.form-control:focus, .btn-primary:focus, .btn-success:focus {
+    box-shadow: none;
+}
+
+.btn-primary, .btn-success {
+    background-color: #61dafb;
+    border: none;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #21a1f1;
+}
